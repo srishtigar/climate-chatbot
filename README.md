@@ -2,11 +2,22 @@
 
 This project develops an advanced climate monitoring and prediction system focused on **Climate-Resilient Agriculture**. It aims to provide farmers and agricultural policymakers with data-driven insights to mitigate the impacts of climate change and enhance food security.
 
-## Features
+## Features (Planned/Under Development)
 - **Multi-Source Climate Data Integration:**  
   Seamlessly fetches and combines climate data from NOAA, Copernicus CDS, and NASA Earth APIs. 
 - **Interactive Chatbot Assistant:**  
   Built with Streamlit and LangChain, the chatbot answers questions on climate, crops, and sustainable practices using advanced LLMs.
+- **Climate Data Visualization:**  
+  Explore historical and projected climate trends through interactive dashboards.
+- **Crop Suitability Analysis:**  
+  Get recommendations for optimal crop varieties based on climate and soil data.
+- **Precision Irrigation Guidance:**  
+  Data-driven suggestions for efficient water management.
+- **Agricultural Hazard Alerts:**  
+  Early warnings for droughts, floods, heatwaves, and pest outbreaks.
+- **Yield Prediction:**  
+  Forecast crop yields under various climate scenarios.
+
 
 ## Architecture
 

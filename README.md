@@ -4,11 +4,26 @@ This project develops an advanced climate monitoring and prediction system focus
 
 ## Features (Planned/Under Development)
 
--   **Climate Data Visualization:** Interactive dashboards for historical and projected climate data.
--   **Crop Suitability Analysis:** Recommendations for optimal crop varieties based on regional climate conditions.
--   **Precision Irrigation Guidance:** Data-driven insights for efficient water management.
--   **Agricultural Hazard Alerts:** Early warnings for droughts, floods, heatwaves, and pest outbreaks.
--   **Yield Prediction:** Forecasting crop yields under various climate scenarios.
+- **Multi-Source Climate Data Integration:**  
+  Seamlessly fetches and combines climate data from NOAA, Copernicus CDS, and NASA Earth APIs.
+  
+- **Interactive Chatbot Assistant:**  
+  Built with Streamlit and LangChain, the chatbot answers questions on climate, crops, and sustainable practices using advanced LLMs.
+
+- **Climate Data Visualization:**  
+  Explore historical and projected climate trends through interactive dashboards.
+
+- **Crop Suitability Analysis:**  
+  Get recommendations for optimal crop varieties based on climate and soil data.
+
+- **Precision Irrigation Guidance:**  
+  Data-driven suggestions for efficient water management.
+
+- **Agricultural Hazard Alerts:**  
+  Early warnings for droughts, floods, heatwaves, and pest outbreaks.
+
+- **Yield Prediction:**  
+  Forecast crop yields under various climate scenarios.
 
 ## Architecture
 
@@ -19,6 +34,23 @@ The system is designed with a modular architecture, including:
 -   **Machine Learning and Analytics Layer:** Develops and deploys predictive models.
 -   **Application Layer:** Provides user interfaces (Streamlit dashboard).
 -   **API Management and Security Layer:** Manages API keys and ensures secure access.
+
+## 🧩 Tech 
+
+|    **Term**         |  **Meaning**                                  |
+|---------------------|-----------------------------------------------|
+| **LangChain**       | LLM app framework                             |
+| **LLM**             | Large language model (e.g., Gemma2-9b-It)     |
+| **Streamlit**       | Interactive Python web apps                   |
+| **NOAA CDO API**    | U.S. climate/weather data API                 |
+| **Copernicus CDS API** | EU climate/satellite data API              |
+| **NASA Earth API**  | NASA satellite imagery/data                   |
+| **PromptTemplate**  | Custom LLM prompt builder                     |
+| **LLMMathChain**    | LLM math solver chain                         |
+| **Tool**            | Connects APIs/utilities to agent              |
+| **initialize_agent**| Builds multi-tool smart agent                 |
+| **.env file**       | Stores API keys/configs securely              |
+
 
 ## Setup and Installation
 
